@@ -1,0 +1,103 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    border: 1px solid blue;
+}
+
+.landing-container {
+    margin: 40px;
+    border: 1px solid red;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo-container {
+    margin-right: auto;
+}
+
+.logo-container img {
+    width: 160px;       
+}
+
+.logo-container, .nav-links-container {
+   
+}
+
+.tools-container {
+    display: flex;
+}
+
+.tools-container .tool img {
+    width: 50%;
+}
+
+.tool {
+    flex: 1;
+
+}
+
+
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.hero-intro, .hero-img {
+    flex: 1;
+}
+
+.hero-img img {
+    width: 70%;
+}
+
+.hero-img {
+    text-align: center;
+}
+
+.clients-section {
+    display: flex;
+}
+
+.clients-logos-container {
+    display: flex;
+}
+
+.clients-logos-container img {
+    width: 100%;
+    flex: 1;
+}
+
+.cta-container {
+    display: flex;
+    align-items: center;
+}
+
+.cta-text, .cta-btn {
+    flex: 1;
+}
+
+.cta-btn button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.page-footer {
+    display: flex;
+}
+
+.copyright-container, .footer-links-container {
+    justify-content: flex-end;
+}
