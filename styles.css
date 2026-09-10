@@ -10,7 +10,6 @@
 }
 
 .landing-container {
-    margin: 40px;
     border: 1px solid red;
 }
 
@@ -28,8 +27,18 @@
     width: 160px;       
 }
 
-.logo-container, .nav-links-container {
-   
+.nav-links-container {
+    display: flex;
+    border-bottom: 1px solid #00daf2;
+}
+
+.nav-links-container div {
+    flex: 1;
+}
+
+.nav-links-container a {
+    text-decoration: none;
+    color: aliceblue;
 }
 
 .tools-container {
@@ -45,25 +54,38 @@
 
 }
 
-
-
 .hero-section {
     display: flex;
     align-items: center;
-    background-color: black;
-    color: white;
+    color: aliceblue;
+    
 }
 
 .hero-intro, .hero-img {
     flex: 1;
 }
 
-.hero-img img {
-    width: 70%;
+.hero-intro h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-intro p {
+    font-size: 18px;
 }
 
 .hero-img {
-    text-align: center;
+    text-align: right;
+}
+
+.hero-intro button {
+    padding: 15px 30px 12px 30px;
+    font-weight: bold;
+    color: 900;
+}
+
+.hero-img img {
+    width: 70%;
 }
 
 .clients-section {
@@ -96,8 +118,33 @@
 
 .page-footer {
     display: flex;
+    padding: 20px 80px;
+    background-color: #1F2937;
+    color: aliceblue;
+    justify-content: flex-end;
+    
 }
 
-.copyright-container, .footer-links-container {
-    justify-content: flex-end;
+.copyright-container {
+    margin-right: auto;
+}
+
+.footer-links-container a {
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+header {
+        background-color: #1F2937;
+        padding: 10px 80px;
+}
+
+.hero-section {
+        background-color: #1F2937;
+        padding: 40px 80px;
+}
+
+section {
+    padding: 40px 80px;
 }
