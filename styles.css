@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 .body {
@@ -17,6 +18,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
 }
 
 .logo-container {
@@ -29,16 +31,23 @@
 
 .nav-links-container {
     display: flex;
-    border-bottom: 1px solid #00daf2;
+    border-bottom: 2px solid #00daf2;
+    padding-bottom: 10px;
+    gap: 20px;
 }
 
 .nav-links-container div {
     flex: 1;
 }
 
-.nav-links-container a {
+.nav-container .nav-links-container a {
     text-decoration: none;
     color: aliceblue;
+}
+
+.nav-container .nav-links-container a:hover {
+    color: #00daf2;
+    font-weight: bold;
 }
 
 .tools-container {
@@ -65,27 +74,14 @@
     flex: 1;
 }
 
-.hero-intro h1 {
-    font-size: 48px;
-    font-weight: 900;
-}
-
-.hero-intro p {
-    font-size: 18px;
-}
 
 .hero-img {
     text-align: right;
 }
 
-.hero-intro button {
-    padding: 15px 30px 12px 30px;
-    font-weight: bold;
-    color: 900;
-}
 
 .hero-img img {
-    width: 70%;
+    width: 85%;
 }
 
 .clients-section {
@@ -132,17 +128,46 @@
 .footer-links-container a {
     text-decoration: none;
     color: aliceblue;
-    
 }
 
 header {
         background-color: #1F2937;
-        padding: 10px 80px;
+        padding: 40px 80px;
 }
 
 .hero-section {
         background-color: #1F2937;
-        padding: 40px 80px;
+        padding: 80px 80px;
+        border-bottom: 10px solid #00daf2;
+}
+
+.hero-title {
+    font-size: 42px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.hero-title-highlight {
+    color: #00daf2;
+    font-weight: 900;
+
+}
+
+.hero-description {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.hero-cta-button {
+    padding: 15px 30px 12px 30px;
+    font-weight: bold;
+    color: 900;
+    font-weight: bold;
+    color: 900;
+    background-color: #00daf2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 section {
